@@ -9,25 +9,26 @@ html {
 body {
     margin: 0;
 }
-.product_rows:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 .gtkonline_row {
     float: left;
     width: 100%;
-    padding: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .itshistory_row {
     float: left;
     width: 100%;
-    padding: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .blackstar_row {
     float: left;
     width: 100%;
-    padding: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .navbar {
     width: 100%;
@@ -35,4 +36,9 @@ body {
     top: 0;
     background-color: black;
     color: white;
+}
+.products_row::after {
+content: "";
+clear: both;
+display: table;
 }
