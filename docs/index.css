@@ -5,3 +5,23 @@ h1 {
 html {
     scroll-behavior: smooth;
 }
+.product_rows {
+    content: "";
+    display: table;
+    clear: both;
+}
+.gtkonline_row {
+    float: left;
+      width: 100%;
+      padding: 30px;
+}
+.itshistory_row {
+    float: left;
+      width: 100%;
+      padding: 30px;
+}
+.blackstar_row {
+    float: left;
+      width: 100%;
+      padding: 30px;
+}
