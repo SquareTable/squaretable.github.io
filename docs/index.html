@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <style>
+            .navbar {
+                width: 100%;
+                background-color: black;
+                color: white;
+                height: 120px;
+            }
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            html {
+                overflow-x: hidden; /* Hide horizontal scrollbar */
+            }
+            h1 {
+                margin-top: 0;
+            }
+            .software_offerings::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .software_offering_row {
+                float: left;
+                width: 100%;
+                /*border-color: gray;
+                border-width: 1px;
+                border-style: solid;*/
+                height: auto;
+            }
+        </style>
     </head>
     <body>
         <div class="navbar">
-            <h4 style="float: left;">SquareTable</h4>
-            <h3 style="float: right";>This website is a work in progress</h3>
+            <div style="min-height: 20;height: 20;max-height: 20;">&nbsp;</div>
+            <h1 style="text-align: center;">SquareTable</h1>
+            <h3 style="text-align: center;">The security-focused software company that believes that privacy is a human right.</h3>
         </div>
-        <div class="products_row">
-            <div class="gtkonline_row">
-                <img src="images/gtkonline_logo.png" width="100px" height="auto">
-                <h3>GTK Online</h3>
-                <p>GTKOnline is a chromium extension that allows you to change the styling of every website you visit to have the styling of your global GTK styling.</p>
-                <button><a href="https://squaretable.github.io/GTKOnline">Click here to learn more</a></button>
-            </div>
-            <div class="itshistory_row">
-                <h3>It's History</h3>
-                <p>It's History is a chromium extension that allows you to delete your history after a certain amount of time automatically, and also deletes any traces of any mad sussy websites you have visited.</p>
-                <button><a href="https://squaretable.github.io/Its-history/">Click here to learn more</a></button>
+        <div style="min-height: 20;height: 20;max-height: 20;">&nbsp;</div>
+        <h1 style="text-align: center;margin-top: 10;">Our software offerings</h1>
+        <div class="software_offerings">
+            <div class="software_offering_row">
+                <table cellspacing=0 style="width: 100%;">
+                    <tr>
+                        <td style="width: 66.666%;">
+                            <div style="background-color: black;">
+                                <div style="width: 33.3%;">
+                                    <img src="images/photoshop_icon.png" width="200px">
+                                </div>
+                                <div style="width: 33.3%;">
+                                    <h1 style="font-size: 60pt;font-weight: bolder;color: white;text-align: center;">SocialSquare</h1>
+                                    <h1 style="font-size: 35pt;font-weight: bolder;color: red;text-align: center;">Releasing October 31st</h1>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 33.333%;">
+                            <p style="text-align: center;">A secure social media platform</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
-        <hr><br>
-        <button>
-            <a href="#top">Go to the top</a>
-        </button>
-        <script src="index.js"></script>
     </body>
 </html>
